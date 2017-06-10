@@ -1,5 +1,6 @@
 # Project specifics:
 Makefile.dep
+bsp
 
 # Prerequisites
 *.d
