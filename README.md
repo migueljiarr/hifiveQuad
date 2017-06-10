@@ -1,7 +1,9 @@
+# README #
+
 This project tries to create a flight controller software. It is designed to run on the SiFive's 
 HiFive1 board.
 
-*Build instructions:*
+### Build instructions: ###
 
 First follow the instrutions at https://github.com/sifive/freedom-e-sdk to download and build the
 freedom-e-sdk provided by SiFive and which we are going to use to build the project.
@@ -18,8 +20,9 @@ ln -l /path/to/SDK bsp
 Once you have this, you can use the following make commands inside the project directory:
 
 ```
-`make`: builds the project.
-`make upload`: uploads program to hifive1 board.
-`make run_openocd` and `make run_debug` in different terminals: opens openocd and gdb for debug.
-`make clean`: cleans the build.
+make: builds the project.
+make upload: uploads program to hifive1 board.
+make run_openocd 
+make run_debug: opens openocd and gdb for debugging.
+make clean: cleans the build.
 ```
