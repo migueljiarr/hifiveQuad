@@ -16,6 +16,7 @@ ASM_SRCS += $(ENV_DIR)/start.S
 ASM_SRCS += $(ENV_DIR)/entry.S
 C_SRCS += $(PLATFORM_DIR)/init.c
 C_SRCS += $(BSP_BASE)/drivers/plic/plic_driver.c
+C_SRCS += $(BSP_BASE)/drivers/fe300prci/fe300prci_driver.c
 
 LINKER_SCRIPT := $(PLATFORM_DIR)/link.lds
 

@@ -17,7 +17,7 @@ BOARD = freedom-e300-hifive1
         E = @echo 
 #endif
 
-CFILES += $(shell find src -mindepth 1 -maxdepth 4 -name "*.c")
+CFILES += $(shell find src -mindepth 1 -maxdepth 7 -name "*.c")
 CXXFILES += $(shell find src -mindepth 1 -maxdepth 4 -name "*.cpp")
 
 INFILES := $(CFILES) $(CXXFILES)
