@@ -1,9 +1,6 @@
 # Project specifics:
 *.swp
-Makefile.dep
-bsp
 i2c
-obj/*
 
 # Prerequisites
 *.d
